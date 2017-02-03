@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    可以监测fps
                    DESC
 
-  s.homepage     = "https://github.com/Hero2000/PrivateRepoPro"
+  s.homepage     = "https://github.com/Hero2000/YYFPSLabel"
 
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -19,8 +19,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
 
-  s.source       = { :git => "https://github.com/Hero2000/PrivateRepoPro.git", :tag => s.version.to_s }
-  s.source_files  = "PrivateRepoPro/**/*.{m,h}"
+  s.source       = { :git => "https://github.com/Hero2000/YYFPSLabel.git", :tag => s.version.to_s }
+  s.source_files  = "YYFPSLabel/**/*.{m,h}"
 
   s.requires_arc = true
 
