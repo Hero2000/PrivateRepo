@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 
-  s.name         = "DLSlideView"
+  s.name         = "YYFPSLabel"
   s.version      = "1.0.1"
   s.summary      = "检测fps label"
 
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    可以监测fps 可以监测fps 可以监测fps  可以监测fps
                    DESC
 
-  s.homepage     = "https://github.com/agdsdl/DLSlideView"
+  s.homepage     = "https://github.com/Hero2000/YYFPSLabel"
   s.screenshots  = "https://github.com/agdsdl/DLSlideView/raw/master/Images/demo1.jpg", "https://github.com/agdsdl/DLSlideView/raw/master/Images/demo2.jpg"
 
 
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "5.0"
   s.ios.deployment_target = "5.0"
 
-  s.source       = { :git => "https://github.com/agdsdl/DLSlideView.git", :tag => s.version.to_s }
-  s.source_files  = "DLSlideView/**/*.{m,h}"
+  s.source       = { :git => "https://github.com/Hero2000/YYFPSLabel.git", :tag => s.version.to_s }
+  s.source_files  = "YYFPSLabel/**/*.{m,h}"
 
   s.requires_arc = true
 
